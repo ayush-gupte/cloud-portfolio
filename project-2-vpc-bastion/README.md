@@ -26,7 +26,7 @@ Private Subnet (Private EC2 Instance)
 ## Implementation Steps
 
 ### 1. Create VPC
-![01 VPC Created](screenshots/01-VPC%20Created.png)
+![01 VPC Created](screenshots/01%20VPC%20Created.png)
 
 ---
 
@@ -36,12 +36,12 @@ Private Subnet (Private EC2 Instance)
 ---
 
 ### 3. Create Public Subnet
-![03 Public Subinet Created](screenshots/03%20Public%20Subinet%20Created.png)
+![03 Public Subinet Created](screenshots/03%20Public%20Subnet%20Created.png)
 
 ---
 
 ### 4. Enable Auto Assign Public IP
-![04 Enable Auto Assign IP for Public Subriet](screenshots/04%20Enable%20Auto%20Assign%20IP%20for%20Public%20Subriet.png)
+![04 Enable Auto Assign IP for Public Subriet](screenshots/04%20Enable%20Auto%20Assign%20IP%20for%20Public%20Subnet.png)
 
 ---
 
@@ -61,7 +61,7 @@ Private Subnet (Private EC2 Instance)
 ---
 
 ### 8. Attach Route Table to Public Subnet
-![08 Attach RT tu Public Subnet](screenshots/08%20Attach%20RT%20tu%20Public%20Subnet.png)
+![08 Attach RT tu Public Subnet](screenshots/08%20Attach%20RT%20to%20Public%20Subnet.png)
 
 ---
 
@@ -81,7 +81,7 @@ Private Subnet (Private EC2 Instance)
 ---
 
 ### 12. Successful Connection to Private EC2
-![12 Successful connection](screenshots/12%20Successful%20connection.png)
+![12 Successful connection](screenshots/12%20Successful%20Connection.png)
 
 ---
 
