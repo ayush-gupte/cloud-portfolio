@@ -7,17 +7,17 @@ The goal of this portfolio is to demonstrate **practical AWS skills**, real oper
 
 ---
 
-## 🚀 Projects
+## ⭐ Projects
 
 ### ✅ Completed
 
-- 🔐 **Secure Static Website on AWS**  
+- 🔐 [Secure Static Website on AWS](project-1-secure-static-site/README.md)  
   Deployed a static website using Amazon S3 with controlled public access, documented step-by-step with screenshots and security considerations.
 
-### 🛠 In Progress / Planned
-
-- 🌐 **VPC with Bastion and Private Subnets**  
+- 🌐 [VPC with Bastion and Private Subnets](project-2-vpc-bastion/README.md)  
   Design and implement a secure VPC with private subnets and controlled administrative access.
+
+### 🛠 In Progress / Planned
 
 - 📊 **Monitoring and Alerting with CloudWatch**  
   Configure metrics, alarms, and operational visibility for AWS workloads.
@@ -48,11 +48,9 @@ I built this portfolio to:
 - GitHub for documentation and version control
   
 ---
-
 ## 📬 Contact
 
 - GitHub: https://github.com/ayush-gupte  
 - LinkedIn: www.linkedin.com/in/ayush-gupte-37156932a
-  
 ---
 ⭐ If you're reviewing this as a recruiter or hiring manager — thank you for your time!
