@@ -6,13 +6,13 @@ This project demonstrates monitoring an AWS EC2 instance using CloudWatch metric
 ## Architecture
 
 EC2 Instance
-↓
+➝
 CloudWatch Metrics
-↓
+➝
 CloudWatch Alarms
-↓
+➝
 SNS Topic (Email Notifications)
-↓
+➝
 CloudWatch Dashboard
 
 CloudWatch collects metrics from EC2  
