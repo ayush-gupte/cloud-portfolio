@@ -15,10 +15,10 @@ SNS Topic (Email Notifications)
 ➝
 CloudWatch Dashboard
 
-CloudWatch collects metrics from EC2  
-Alarms are triggered based on thresholds  
-SNS sends alert emails  
-Dashboard visualizes metrics and alarm states  
+CloudWatch collects metrics from EC2.  
+Alarms are triggered based on thresholds.  
+SNS sends alert emails.  
+Dashboard visualizes metrics and alarm states.  
 
 ## Implementation Steps
 
@@ -83,28 +83,28 @@ Confirm that email notification is received when CPU crosses threshold
 
 ![CloudWatch Dashboard Created](Screenshots/06%20CloudWatch%20Dashboard%20Created.png)
 
-Create dashboard named monitoring-dashboard  
-Add CPUUtilization graph widget  
-Add StatusCheckFailed number widget labeled Instance Health  
-Optionally add NetworkIn and NetworkOut  
+Create dashboard named monitoring-dashboard.  
+Add CPUUtilization graph widget.  
+Add StatusCheckFailed number widget labeled Instance Health.  
+Optionally add NetworkIn and NetworkOut. 
 
 ## Security Design
 
-EC2 instance has no monitoring ports exposed  
-Monitoring is handled internally via CloudWatch  
-Alerts are delivered through SNS email notifications  
-No public access is required for monitoring visibility  
+EC2 instance has no monitoring ports exposed. 
+Monitoring is handled internally via CloudWatch.  
+Alerts are delivered through SNS email notifications.  
+No public access is required for monitoring visibility.  
 
 ## Learning Outcomes
 
-Understood how CloudWatch collects and visualizes metrics  
-Learned how to configure alarms based on thresholds  
-Integrated SNS with CloudWatch for alerting  
-Simulated real load to test monitoring effectiveness  
-Built a basic observability setup for EC2  
+Understood how CloudWatch collects and visualizes metrics.  
+Learned how to configure alarms based on thresholds.  
+Integrated SNS with CloudWatch for alerting.  
+Simulated real load to test monitoring effectiveness.  
+Built a basic observability setup for EC2.
 
 ## Clean-up
 
-Terminate EC2 instance  
-Delete CloudWatch alarms and dashboard  
-Delete SNS topic and subscriptions  
+Terminate EC2 instance.
+Delete CloudWatch alarms and dashboard. 
+Delete SNS topic and subscriptions.  
