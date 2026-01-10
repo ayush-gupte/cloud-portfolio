@@ -84,7 +84,7 @@ Confirm that email notification is received when CPU crosses threshold
 ![CloudWatch Dashboard Created](Screenshots/06%20CloudWatch%20Dashboard%20Created.png)
 
 Create dashboard named monitoring-dashboard.  
-Add CPUUtilization graph widget.  
+Add CPU Utilization graph widget.  
 Add StatusCheckFailed number widget labeled Instance Health.  
 Optionally add NetworkIn and NetworkOut. 
 
