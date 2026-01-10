@@ -15,7 +15,7 @@ The goal of this portfolio is to demonstrate **practical AWS skills**, real oper
 - 🌐 [VPC with Bastion and Private Subnets](project-2-vpc-bastion/README.md)  
   Design and implement a secure VPC with private subnets and controlled administrative access.
 
-- 📊 [Monitoring and Alerting with CloudWatch](cloud-portfolio/project-3-Cloudwatch-Monitoring/README.md)  
+- 📊 [Monitoring and Alerting with CloudWatch](project-3-Cloudwatch-Monitoring/README.md)  
   Configure metrics, alarms, and operational visibility for AWS workloads.
 
 Each project includes:
