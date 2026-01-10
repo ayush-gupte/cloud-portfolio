@@ -9,17 +9,13 @@ The goal of this portfolio is to demonstrate **practical AWS skills**, real oper
 
 ## ⭐ Projects
 
-### ✅ Completed
-
 - 🔐 [Secure Static Website on AWS](project-1-secure-static-site/README.md)  
   Deployed a static website using Amazon S3 with controlled public access, documented step-by-step with screenshots and security considerations.
 
 - 🌐 [VPC with Bastion and Private Subnets](project-2-vpc-bastion/README.md)  
   Design and implement a secure VPC with private subnets and controlled administrative access.
 
-### 🛠 In Progress / Planned
-
-- 📊 **Monitoring and Alerting with CloudWatch**  
+- 📊 [Monitoring and Alerting with CloudWatch](cloud-portfolio/project-3-Cloudwatch-Monitoring/README.md)  
   Configure metrics, alarms, and operational visibility for AWS workloads.
 
 Each project includes:
