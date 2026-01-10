@@ -44,7 +44,7 @@ Add email subscription and confirm it
 
 ![CloudWatch Alarms Created](Screenshots/03%20CloudWatch%20Alarms%20Created.png)
 
-Create CPU Utilization alarm:  
+# Create CPU Utilization alarm:  
 Metric: CPUUtilization  
 Condition: Greater than 70  
 Period: 1 minute  
@@ -52,7 +52,7 @@ Datapoints: 1
 Action: Send notification to monitoring-alerts SNS topic  
 Name: high-cpu  
 
-Create Status Check alarm:  
+# Create Status Check alarm:  
 Metric: StatusCheckFailed_Instance  
 Condition: Greater than 0  
 Action: Send notification to monitoring-alerts SNS topic  
