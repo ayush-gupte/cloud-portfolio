@@ -5,6 +5,7 @@ This project demonstrates how to design and deploy a highly available, fault-tol
 
 ## Architecture
 User
+
 ↓  
 Application Load Balancer (ALB)  
 ↓  
