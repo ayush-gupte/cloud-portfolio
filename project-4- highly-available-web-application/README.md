@@ -4,6 +4,7 @@
 This project demonstrates how to design and deploy a highly available, fault-tolerant web application architecture on AWS using an Application Load Balancer (ALB), Auto Scaling Group (ASG), Launch Template, CloudWatch monitoring, and dynamic scaling policies. The system automatically replaces unhealthy instances and scales based on CPU load.
 
 ## Architecture
+
 User
 ↓  
 Application Load Balancer (ALB)  
