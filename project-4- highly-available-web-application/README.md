@@ -5,9 +5,7 @@ This project demonstrates how to design and deploy a highly available, fault-tol
 
 ## Architecture
 
-User ➜ Application Load Balancer (ALB)  ➜ Auto Scaling Group (Multi-AZ EC2 instances) ➜ Target Group  
-↓  
-(Optional) RDS / Backend  
+User → Application Load Balancer → Target Group → Auto Scaling Group → Launch Template → EC2 Instances → CloudWatch Metrics → CloudWatch Alarms → Scaling Policy → Auto Scaling Group 
 
 ## Implementation Steps
 
