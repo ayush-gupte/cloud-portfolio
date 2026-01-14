@@ -5,13 +5,7 @@ This project demonstrates how to design and deploy a highly available, fault-tol
 
 ## Architecture
 
-User
-↓  
-Application Load Balancer (ALB)  
-↓  
-Auto Scaling Group (Multi-AZ EC2 instances)  
-↓  
-Target Group  
+User ➜ Application Load Balancer (ALB)  ➜ Auto Scaling Group (Multi-AZ EC2 instances) ➜ Target Group  
 ↓  
 (Optional) RDS / Backend  
 
@@ -69,7 +63,7 @@ The ASG automatically detects the missing instance and launches a new one to mai
 ### 8. Verify ALB DNS Endpoint
 The ALB DNS name is used to access the web application and confirm traffic routing.
 
-![ALB DNS Output](Screenshots/08%20DB%20ALB%20DNS%20Output.png)
+![ALB DNS Output](Screenshots/08%20ALB%20DNS%20Output.png)
 
 ---
 
@@ -101,7 +95,7 @@ CloudWatch detects high CPU usage and triggers the scaling policy.
 ### 12. ASG Launches Additional Instance
 The Auto Scaling Group launches a new instance in response to the alarm.
 
-![Instance Launched](Screenshots/12%20instance%20Launch%20by%20ASG.png)
+![Instance Launched](Screenshots/12%20Instance%20Launch%20by%20ASG.png)
 
 ---
 
