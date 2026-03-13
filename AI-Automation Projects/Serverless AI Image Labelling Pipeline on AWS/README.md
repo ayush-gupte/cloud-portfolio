@@ -23,10 +23,10 @@ An AWS Lambda function is created which will process uploaded images and interac
 
 ---
 
-### 3. Adding Premissions in Lambda Role
+### 3. Adding Permissions in Lambda Role
 The Lambda execution role is updated with permissions to access S3 and Amazon Rekognition so the function can read images and store analysis results.
 
-![Adding Premissions](Screenshots/03%20Adding%20Premissions%20in%20Lambda%20Role.png)
+![Adding Permissions](Screenshots/03%20Adding%20Permissions%20in%20Lambda%20Role.png)
 
 ---
 
@@ -58,10 +58,10 @@ The uploaded image is verified in the S3 bucket before it is processed by the La
 
 ---
 
-### 8. Result In CloudWatch Logs
+### 8. Result in CloudWatch Logs
 CloudWatch logs confirm that the Lambda function was triggered successfully and the Rekognition API analyzed the image.
 
-![CloudWatch Logs](Screenshots/08%20Result%20In%20CloudWatch%20Logs.png)
+![CloudWatch Logs](Screenshots/08%20Result%20in%20CloudWatch%20Logs.png)
 
 ---
 
