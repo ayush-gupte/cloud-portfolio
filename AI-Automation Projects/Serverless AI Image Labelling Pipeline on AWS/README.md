@@ -1,7 +1,7 @@
 # Project — Serverless AI Image Labelling Pipeline on AWS
 
 ## Overview
-This project demonstrates how to build a serverless AI-powered image analysis pipeline on AWS using Amazon S3, AWS Lambda, and Amazon Rekognition. When an image is uploaded to the S3 bucket, it automatically triggers a Lambda function which sends the image to Rekognition for label detection. The detected labels along with confidence scores are processed and stored back in the S3 bucket in JSON format.
+In this project I have built a serverless AI-powered image analysis pipeline on AWS using Amazon S3, AWS Lambda, and Amazon Rekognition. When an image is uploaded to the S3 bucket, it automatically triggers a Lambda function which sends the image to Rekognition for label detection. The detected labels along with confidence scores are processed and stored back in the S3 bucket in JSON format.
 
 ## Architecture
 
