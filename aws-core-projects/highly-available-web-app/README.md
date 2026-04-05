@@ -1,4 +1,4 @@
-# Project 4 — Highly Available Web Application with Auto Scaling and Monitoring
+# Highly Available Web Application with Auto Scaling and Monitoring
 
 ## Overview
 This project demonstrates how to design and deploy a highly available, fault-tolerant web application architecture on AWS using an Application Load Balancer (ALB), Auto Scaling Group (ASG), Launch Template, CloudWatch monitoring, and dynamic scaling policies. The system automatically replaces unhealthy instances and scales based on CPU load.
