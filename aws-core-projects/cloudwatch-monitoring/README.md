@@ -1,4 +1,4 @@
-## Project 3 — AWS EC2 Monitoring & Alerting
+# AWS EC2 Monitoring & Alerting
 
 ## Overview
 This project demonstrates monitoring an AWS EC2 instance using CloudWatch metrics and alarms, integrated with SNS notifications, and visualized through a CloudWatch dashboard. The goal is to implement a basic monitoring and alerting workflow similar to what is used in real production environments.
