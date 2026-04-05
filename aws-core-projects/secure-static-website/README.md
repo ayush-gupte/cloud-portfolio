@@ -1,4 +1,4 @@
-# Project 1 — Secure Static Website on AWS
+# Secure Static Website on AWS
 
 ## Objective
 Deploy a static website using Amazon S3 with basic security controls.
