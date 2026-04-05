@@ -1,4 +1,4 @@
-# Project 2 — VPC with Bastion Host and Private Subnets
+# VPC with Bastion Host and Private Subnets
 
 ## Overview
 
