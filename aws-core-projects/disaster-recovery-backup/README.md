@@ -1,4 +1,4 @@
-# Project 5 — EC2 Backup and Disaster Recovery using AMI
+# EC2 Backup and Disaster Recovery using AMI
 
 ## Overview
 
