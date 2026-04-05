@@ -1,4 +1,4 @@
-# Project — Serverless Food Ordering System on AWS
+# Serverless Food Ordering System on AWS
 
 ## Overview
 
