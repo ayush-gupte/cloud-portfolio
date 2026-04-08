@@ -10,7 +10,7 @@ I focus on practical implementation, monitoring, fault tolerance, and clean docu
 # ⭐ Featured Projects
 
 ## 1. Highly Available Web Application (Core Infrastructure)
-**[View Project →](./aws-core-projects/01-highly-available-web-app)**
+**[View Project](./aws-core-projects/01-highly-available-web-app)**
 
 Designed and deployed a production-style architecture using:
 - EC2
@@ -27,7 +27,7 @@ Designed and deployed a production-style architecture using:
 ---
 
 ## 2. Serverless Food Ordering System (Event-Driven Architecture)
-**[View Project →](./aws-serverless-projects/serverless-projects/serverless-food-ordering-system)**
+**[View Project](./aws-serverless-projects/serverless-projects/serverless-food-ordering-system)**
 
 Built an end-to-end serverless workflow using:
 - AWS CLI
@@ -45,7 +45,7 @@ Built an end-to-end serverless workflow using:
 ---
 
 ## 3. AI Image Labeling Pipeline (Automation + AI)
-**[View Project →](./aws-serverless-projects/ai-projects/ai-image-labeling-pipeline)**
+**[View Project](./aws-serverless-projects/ai-projects/ai-image-labeling-pipeline)**
 
 Developed an automated image processing pipeline using:
 - Amazon S3
@@ -61,7 +61,7 @@ Developed an automated image processing pipeline using:
 # 📂 Additional Core Projects
 
 - **Disaster Recovery & Backup** → [View](./aws-core-projects/02-disaster-recovery-backup)  
-- **CloudWatch Monitoring & Alerting** → [View](./aws-core-projects/03-cloudwatch-monitoring)
+- **AWS EC2 Monitoring & Alerting** → [View](./aws-core-projects/03-cloudwatch-monitoring)
 - **VPC with Bastion Architecture** → [View](./aws-core-projects/04-vpc-bastion-architecture)  
 - **Secure Static Website** → [View](./aws-core-projects/05-secure-static-website)
 
