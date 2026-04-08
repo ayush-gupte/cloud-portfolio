@@ -1,52 +1,103 @@
-# Ayush's Cloud Portfolio
+# ☁️ Ayush Gupte's Cloud Portfolio
 
 Welcome!  
-This repository contains my **hands-on cloud infrastructure projects**, built and documented as part of my journey toward Cloud Support / Cloud Operations roles.
+This repository showcases my hands-on AWS projects built to demonstrate real-world cloud infrastructure, operations, and system design skills.
 
-The goal of this portfolio is to demonstrate **practical AWS skills**, real operational thinking, and clean documentation — not just theoretical knowledge or certifications.
-
----
-
-## ⭐ Projects
-
-- 🔐 [Secure Static Website on AWS](project-1-secure-static-site/README.md)  
-  Deployed a static website using Amazon S3 with controlled public access, documented step-by-step with screenshots and security considerations.
-
-- 🌐 [VPC with Bastion and Private Subnets](project-2-vpc-bastion/README.md)  
-  Design and implement a secure VPC with private subnets and controlled administrative access.
-
-- 📊 [Monitoring and Alerting with CloudWatch](project-3-Cloudwatch-Monitoring/README.md)  
-  Configure metrics, alarms, and operational visibility for AWS workloads.
-
-Each project includes:
-- Architecture overview  
-- Implementation steps  
-- Screenshots as proof of work  
-- Security considerations  
-- Learning outcomes  
+I focus on practical implementation, monitoring, fault tolerance, and clean documentation — aligned with Cloud Support and Cloud Operations roles.
 
 ---
 
-## 🎯 Why this portfolio exists
+# ⭐ Featured Projects
 
-I built this portfolio to:
-- Practice real-world cloud operations  
-- Move beyond certifications into applied skills  
-- Build confidence working with AWS infrastructure  
-- Showcase my approach to cloud design and security  
+## 1. Highly Available Web Application (Core Infrastructure)
+**[View Project →](./aws-core-projects/01-highly-available-web-app)**
+
+Designed and deployed a production-style architecture using:
+- EC2
+- Target Group
+- Application Load Balancer (ALB)
+- Auto Scaling Group (ASG)
+- Launch Templates
+- CloudWatch Monitoring & Alarms
+
+✔ Simulated instance failure and validated auto-healing  
+✔ Implemented dynamic scaling based on CPU utilization  
+✔ Verified traffic routing via ALB  
 
 ---
 
-## 🛠 Tools & Technologies
+## 2. Serverless Food Ordering System (Event-Driven Architecture)
+**[View Project →](./aws-serverless-projects/serverless-projects/serverless-food-ordering-system)**
 
-- Amazon Web Services (AWS)
-- S3, VPC, EC2, IAM, CloudWatch
-- GitHub for documentation and version control
-  
+Built an end-to-end serverless workflow using:
+- AWS CLI
+- EC2
+- AWS Lambda
+- DynamoDB
+- SNS
+- S3
+- CloudWatch
+
+✔ Processed real-time order lifecycle (place → prepare → deliver)  
+✔ Stored and retrieved order data from DynamoDB  
+✔ Integrated notifications and storage services  
+
 ---
-## 📬 Contact
+
+## 3. AI Image Labeling Pipeline (Automation + AI)
+**[View Project →](./aws-serverless-projects/ai-projects/ai-image-labeling-pipeline)**
+
+Developed an automated image processing pipeline using:
+- Amazon S3
+- AWS Lambda
+- Amazon Rekognition
+
+✔ Triggered processing on image upload  
+✔ Extracted labels using AI services  
+✔ Stored results back in S3  
+
+---
+
+# 📂 Additional Core Projects
+
+- **Disaster Recovery & Backup** → [View](./aws-core-projects/02-disaster-recovery-backup)  
+- **CloudWatch Monitoring & Alerting** → [View](./aws-core-projects/03-cloudwatch-monitoring)
+- **VPC with Bastion Architecture** → [View](./aws-core-projects/04-vpc-bastion-architecture)  
+- **Secure Static Website** → [View](./aws-core-projects/05-secure-static-website)
+
+---
+
+# 🎯 Purpose of This Portfolio
+
+- Demonstrate real-world AWS infrastructure skills  
+- Apply cloud concepts beyond certifications  
+- Build hands-on experience in monitoring, scaling, and fault tolerance  
+- Showcase structured problem-solving approach  
+
+---
+
+# 🛠️ Technologies and Services
+
+- Amazon Web Services (AWS)  
+- Amazon EC2  
+- Amazon S3  
+- Virtual Private Cloud (VPC)  
+- Application Load Balancer (ALB)  
+- Auto Scaling  
+- AWS Lambda
+- AWS Rekognition
+- Amazon DynamoDB  
+- Amazon SNS  
+- Amazon CloudWatch  
+- Git & GitHub  
+
+---
+
+# 📬 Contact
 
 - GitHub: https://github.com/ayush-gupte  
-- LinkedIn: www.linkedin.com/in/ayush-gupte-37156932a
+- LinkedIn: https://www.linkedin.com/in/ayush-gupte-37156932a  
+
 ---
+
 ⭐ If you're reviewing this as a recruiter or hiring manager — thank you for your time!
