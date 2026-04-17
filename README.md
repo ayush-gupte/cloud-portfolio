@@ -27,7 +27,7 @@ Designed and deployed a production-style architecture using:
 ---
 
 ## 2. Serverless Food Ordering System (Event-Driven Architecture)
-**[View Project](./aws-serverless-projects/serverless-projects/serverless-food-ordering-system)**
+**[View Project](./aws-serverless-projects/01-serverless-projects/serverless-food-ordering-system)**
 
 Built an end-to-end serverless workflow using:
 - AWS CLI
@@ -45,7 +45,7 @@ Built an end-to-end serverless workflow using:
 ---
 
 ## 3. AI Image Labeling Pipeline (Automation + AI)
-**[View Project](./aws-serverless-projects/ai-projects/ai-image-labeling-pipeline)**
+**[View Project](./aws-serverless-projects/02-ai-projects/ai-image-labeling-pipeline)**
 
 Developed an automated image processing pipeline using:
 - Amazon S3
